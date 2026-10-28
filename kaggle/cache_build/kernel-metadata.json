@@ -1,0 +1,19 @@
+{
+  "id": "marcoledda29/knee-cache-build-313-matteo-split-img512-s0of14",
+  "title": "knee cache build 313-matteo-split-img512 s0of14",
+  "code_file": "cache_build.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "marcoledda29/knee-src-label-ablation-196-197"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "model_sources": []
+}

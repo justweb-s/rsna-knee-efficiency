@@ -1,0 +1,19 @@
+{
+  "id": "marcoledda29/knee-repack-dense8s-t8x32-376x2j",
+  "title": "knee repack dense8s t8x32 376x2j",
+  "code_file": "repack.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "marcoledda29/knee-src-label-ablation-196-197"
+  ],
+  "kernel_sources": [
+    "marcoledda29/knee-pack-dense8s-376x2v9j-b"
+  ],
+  "competition_sources": [],
+  "model_sources": []
+}

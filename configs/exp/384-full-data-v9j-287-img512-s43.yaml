@@ -1,0 +1,65 @@
+# Final model, seed 43: identical to 376-full-data-v9j-287-img512 except for the seed
+# (config_hash a4ce849603).
+name: 384-full-data-v9j-287-img512-s43
+seed: 43
+cache:
+  img: 512
+  slices: 24
+  crop_mm: 110.0
+  band:
+  - 0.15
+  - 0.85
+  crop_mm2: 150.0
+delta:
+  oof: 0.0008
+  gold58: 0.0133
+  bce: 0.0018
+  lb: 0.0017
+  measured_on:
+  - 008-crop-110mm
+  - 011-seed-1337
+  - 012-seed-2024
+  measured_on_prev:
+  - 001-baseline
+  - 002-seed
+  - 003-seed
+data:
+  labels: 012-host-criteria-v2-t2-lieve
+  folds: folds.csv
+model:
+  arch: densenet169
+  pretrained: true
+  drop_rate: 0.0
+  window_stride: 2
+  context_layers: 1
+  context_dim: 256
+  context_heads: 4
+train:
+  folds:
+  - 0
+  epochs: 30
+  batch_size: 8
+  eval_batch_size: 4
+  k_train: 24
+  lr: 0.0003
+  lr_backbone: null
+  weight_decay: 0.01
+  workers: 2
+  amp: true
+  save_checkpoints: true
+  time_budget_s: 43200
+  full_data: true
+  val_every: 2
+  teacher: matteo-v9j-253-h1-342
+  speed:
+    channels_last: true
+    cudnn_benchmark: true
+    fused_adam: true
+    fastdense: cuda
+    fast_eval: true
+  augment:
+    slice_offset: 1
+    translate_x: 0.03
+parent: 376-full-data-v9j-287-img512
+cache_from: 313-matteo-split-img512
+cache_shards: 14

@@ -1,0 +1,21 @@
+{
+  "id": "marcoledda29/knee-pack-dense8s-376x2v9j-b",
+  "title": "knee pack dense8s 376x2v9j b",
+  "code_file": "pack_dense8s.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "marcoledda29/knee-src-label-ablation-196-197",
+    "marcoledda29/knee-runs-376-384-full-data-v9j-287-img512"
+  ],
+  "kernel_sources": [
+    "marcoledda29/knee-cache-build-313-matteo-split-img512-s0of14"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

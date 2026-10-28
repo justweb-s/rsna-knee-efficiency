@@ -1,0 +1,24 @@
+{
+  "id": "marcoledda29/ks-376-384-v9j-512-lean-tta-p2z110t0-li",
+  "title": "ks 376 384-v9j-512-lean-tta-p2z110t0-li",
+  "code_file": "submit.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "marcoledda29/knee-wheels",
+    "marcoledda29/knee-runs-376-384-full-data-v9j-287-img512"
+  ],
+  "kernel_sources": [
+    "marcoledda29/knee-trt-runtime-cp313",
+    "marcoledda29/knee-repack-dense8s-t8x32-376x2j"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

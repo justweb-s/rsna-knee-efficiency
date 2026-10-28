@@ -1,0 +1,15 @@
+{
+  "id": "marcoledda29/knee-trt-runtime-cp313",
+  "title": "knee trt runtime cp313",
+  "code_file": "trt_runtime_cp313.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

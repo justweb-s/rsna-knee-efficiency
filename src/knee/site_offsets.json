@@ -1,0 +1,84 @@
+{
+ "source": "081-densenet169-context/oof.csv",
+ "columns": [
+  "Synovitis",
+  "Baker's",
+  "Contusion",
+  "Fracture"
+ ],
+ "rule": "colonne con silenzio mediano fra lingue >= 0.30 (scripts/diag_site_bias.py)",
+ "n": {
+  "en": 1737,
+  "es": 699,
+  "tr": 543,
+  "ell": 321,
+  "de": 260,
+  "other": 252,
+  "cyr": 220,
+  "pl": 166,
+  "nl": 128,
+  "fr": 81
+ },
+ "offsets": {
+  "cyr": {
+   "Synovitis": -0.4576,
+   "Baker's": -0.1094,
+   "Contusion": 0.5174,
+   "Fracture": -0.2712
+  },
+  "de": {
+   "Synovitis": 0.3177,
+   "Baker's": 0.3367,
+   "Contusion": 0.6639,
+   "Fracture": 0.2472
+  },
+  "ell": {
+   "Synovitis": 0.1935,
+   "Baker's": 0.6607,
+   "Contusion": 0.3765,
+   "Fracture": 0.4829
+  },
+  "en": {
+   "Synovitis": 0.1048,
+   "Baker's": -0.1305,
+   "Contusion": -0.158,
+   "Fracture": -0.1487
+  },
+  "es": {
+   "Synovitis": -0.0747,
+   "Baker's": -0.2831,
+   "Contusion": -0.2874,
+   "Fracture": 0.3931
+  },
+  "fr": {
+   "Synovitis": -0.0037,
+   "Baker's": 0.1581,
+   "Contusion": -0.4273,
+   "Fracture": -0.1871
+  },
+  "nl": {
+   "Synovitis": 0.0577,
+   "Baker's": 0.8665,
+   "Contusion": 0.2779,
+   "Fracture": 0.4069
+  },
+  "other": {
+   "Synovitis": -0.1405,
+   "Baker's": 0.1276,
+   "Contusion": 0.2915,
+   "Fracture": -0.1643
+  },
+  "pl": {
+   "Synovitis": -0.0794,
+   "Baker's": 0.1678,
+   "Contusion": 0.1943,
+   "Fracture": -0.1466
+  },
+  "tr": {
+   "Synovitis": -0.2439,
+   "Baker's": -0.0638,
+   "Contusion": -0.0712,
+   "Fracture": -0.2711
+  }
+ }
+}

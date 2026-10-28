@@ -1,0 +1,13 @@
+# The training cache: 512 px, 24 slices per series, two crop scales (110 and 150 mm) of the four
+# sequence slots, slices sampled in the central 15-85% band. Built in 14 shards by the cache kernel
+# (kaggle/cache_build). The name comes from the experiment log and is kept for traceability.
+name: 313-matteo-split-img512
+cache:
+  img: 512
+  slices: 24
+  crop_mm: 110.0
+  band:
+  - 0.15
+  - 0.85
+  crop_mm2: 150.0
+cache_shards: 14
