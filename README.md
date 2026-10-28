@@ -26,6 +26,7 @@ src/knee/                the Python package (data, model, training, inference, I
   train.py, fastdense*.py  training, with the fast DenseNet training kernels
 configs/exp/             the cache spec (313) and the two final seeds (376: seed 42, 384: seed 43)
 data/folds/folds.csv     the 5-fold split used for every out-of-fold measurement
+docs/figures/            the figures of the write-up
 data/labels/             report-derived labels and the teacher's soft labels (see "Labels")
 kaggle/                  the Kaggle kernels of the pipeline, one folder each, with kernel-metadata.json
 prebuilt/                the binaries the submission embeds: C decoder library and uint8 CUBIN
